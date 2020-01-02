@@ -3,8 +3,16 @@
 {
 
 
-margin-left: 550px;
+margin-left: 560px;
 
+}
+
+
+
+.abc{
+    
+    width: 220px;
+    
 }
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -1957,9 +1965,11 @@ figure .title-holder i:before {
 }
 
 .filters {
-    display: inline-block;
+    display: flex;
     overflow: hidden;
     margin-bottom: 44px;
+    justify-content: space-around;
+    margin-left: 270px;
 }
 
 .filters li {
@@ -1976,6 +1986,7 @@ figure .title-holder i:before {
     transition: all .3s ease;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
+    
 }
 
 .filters li:last-child {
