@@ -1,5 +1,11 @@
 /********** GENERAL STYLES **********/
+.haha
+{
 
+
+margin-left: 550px;
+
+}
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -1842,6 +1848,7 @@ nav .menu li:last-child .subnav-fullwidth li {
 
 .work-wrapper figure {
     float: left;
+    display: flex;
 }
 
 .work-instance-wrapper {
