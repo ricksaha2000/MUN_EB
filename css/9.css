@@ -2010,6 +2010,7 @@ figure .title-holder i:before {
     left: 0px;
 }
 
+/*
 .filters {
     display: flex;
     overflow: hidden;
@@ -2086,7 +2087,187 @@ figure .title-holder i:before {
 figure.medium-12 {
     overflow: hidden;
 }
+*/
 
+
+
+
+.filters {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    margin-bottom: 44px;
+    justify-content: space-around;
+    margin-left: 300px;
+}
+
+.filters li {
+    float: left;
+    text-align: center;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-left: 2px solid;
+    border-color: #454545;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    
+}
+
+.filters li:last-child {
+    border-right: 2px solid;
+}
+
+.filters li a {
+    display: inline-block;
+    margin-right: -1px;
+    padding: 15px 22px 15px 22px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+}
+
+.filters li a i {
+    font-size: 16px;
+    display: inline-block;
+    margin-left: 0px;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    width: 0px;
+    position: relative;
+    left: 40px;
+    opacity: 0;
+}
+
+.filters li:hover {
+    background: #454545;
+    text-decoration: none;
+}
+
+.filters li:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.filters li.active {
+    background: #454545;
+    text-decoration: none;
+}
+
+.filters li.active a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.filters li.active a i {
+    left: 0px;
+    opacity: 1;
+    width: 16px;
+}
+
+figure.medium-12 {
+    overflow: hidden;
+}
+
+@media only screen and (max-width: 768px) {
+    .haha { 
+        margin-left:-10%;
+    } 
+    
+    
+    .rai{
+        
+        margin-left: 90px;
+        
+    }
+    
+    .filters {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 44px;
+        justify-content: space-around;
+        margin-left: 65px;
+    }
+
+    .filters li {
+        float: left;
+        text-align: center;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        border-left: 2px solid;
+        border-color: #454545;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+
+    }
+
+    .filters li:last-child {
+        border-right: 2px solid;
+    }
+
+    .filters li a {
+        display: inline-block;
+        margin-right: -1px;
+        padding: 15px 22px 15px 22px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+
+    .filters li a i {
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 0px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        width: 0px;
+        position: relative;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .filters li:hover {
+        background: #454545;
+        text-decoration: none;
+    }
+
+    .filters li:hover a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .filters li.active {
+        background: #454545;
+        text-decoration: none;
+    }
+
+    .filters li.active a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .filters li.active a i {
+        left: 0px;
+        opacity: 1;
+        width: 16px;
+    }
+
+    figure.medium-12 {
+        overflow: hidden;
+    }
+}
 
 /********** TESTIMONIALS **********/
 
