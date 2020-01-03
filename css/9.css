@@ -1670,7 +1670,8 @@ nav {
 }
 
 .shrink-nav {
-    padding-top: 17px;
+    margin-top: 17px;
+    
 }
 
 .shrink-nav .menu li a {
@@ -2095,9 +2096,16 @@ figure.medium-12 {
 */
 
 
+.jayit{
+    
+    display: none !important;
+    
+}
 
-
-
+jayit1
+{
+    margin-top: 100px;
+}
 
 
 
@@ -2190,22 +2198,35 @@ figure.medium-12 {
 
 @media only screen and (max-width: 768px) {
    
-    .nav-dark
-    {
-        display: none;
+    .nav-dark{
+        
+        display: none !important;
+        
     }
+    
+    .navbar{
+    
+    
+    height: 5000px;
+    
+}
     
     .jayit
     {
-        display: block!important;
+        display:flex !important;
         background-color: #511926;
-        
     }
     .mobile{
         
         
         height: 100px;
         
+    }
+    
+    .yo
+    {
+        margin-left: 180px;
+        margin-bottom: 200px;
     }
     
     @import "compass/css3";
