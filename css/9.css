@@ -2124,7 +2124,7 @@ jayit1
     overflow: hidden;
     margin-bottom: 44px;
     justify-content: space-around;
-    margin-left: 300px;
+/*    margin-left: 300px;*/
 }
 
 .filters li {
@@ -2205,6 +2205,40 @@ figure.medium-12 {
     
     padding-left: 30px
 }
+
+
+
+@media only screen and (min-width: 1280px) {
+
+.filters
+    {
+        margin-left: 90px;
+    }
+    
+ .haha { 
+        margin-left: 40%;
+    } 
+    
+    
+    
+
+}
+
+@media only screen and (min-width: 1440px) {
+    
+    
+    .filters
+    {
+        margin-left: 280px;
+    }
+    
+    
+}
+
+
+
+
+
 @media only screen and (max-width: 768px) {
    
     .jayit3
@@ -2246,6 +2280,7 @@ figure.medium-12 {
         margin-left: 185px;
         margin-bottom: 200px;
     }
+/*
     
     @import "compass/css3";
 
@@ -2277,6 +2312,7 @@ figure.medium-12 {
   font-size: 3em;
   text-align: center;
 }
+*/
 
     
     
@@ -2381,7 +2417,142 @@ figure.medium-12 {
 
 
 
+@media only screen and ( max-width:1280px and min-width:) {
+   
+/*
+    .jayit3
+    {
+        display: none !important;
+    }
+*/
+    .jay{
+    
+    padding-left: 130px
+}
+    
+    .nav-dark{
+        
+        display: none !important;
+        
+    }
+    
+    .navbar{
+    
+    
+    height: 5000px;
+    
+}
+    
+    .jayit
+    {
+        display:flex !important;
+        background-color: #511926;
+    }
+    .mobile{
+        
+        
+        height: 100px;
+        
+    }
+    
+    .yo
+    {
+        margin-left: 185px;
+        margin-bottom: 200px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    .haha { 
+        margin-left:-10%;
+    } 
+    
+    .filters {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 44px;
+        justify-content:center;
+        margin-left: 0px !important;
+    }
 
+    .filters li {
+        float: left;
+        text-align: center;
+        border-top: 2px solid;
+        border-bottom: 2px solid;
+        border-left: 2px solid;
+        border-color: #454545;
+        font-size: 12px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+
+    }
+
+    .filters li:last-child {
+        border-right: 2px solid;
+    }
+
+    .filters li a {
+        display: inline-block;
+        margin-right: -1px;
+        padding: 15px 22px 15px 22px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+    }
+
+    .filters li a i {
+        font-size: 16px;
+        display: inline-block;
+        margin-left: 0px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        width: 0px;
+        position: relative;
+        left: 40px;
+        opacity: 0;
+    }
+
+    .filters li:hover {
+        background: #454545;
+        text-decoration: none;
+    }
+
+    .filters li:hover a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .filters li.active {
+        background: #454545;
+        text-decoration: none;
+    }
+
+    .filters li.active a {
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .filters li.active a i {
+        left: 0px;
+        opacity: 1;
+        width: 16px;
+    }
+
+    figure.medium-12 {
+        overflow: hidden;
+    }
+}
 
 
 /********** TESTIMONIALS **********/
