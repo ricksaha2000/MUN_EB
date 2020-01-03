@@ -2363,7 +2363,8 @@ figure.medium-12 {
     
     .filters
     {
-        margin-left: 30px;
+        margin-left: 42px;
+        padding-left: 150px;
     }
     
     .haha { 
@@ -2391,10 +2392,11 @@ figure.medium-12 {
 }
 */
 
+/*
 .flex-item {
   background: tomato;
   padding: 5px;
-  width: 208px;
+  width: 18px;
   height: 65px;
   margin-top: 10px;
   line-height:;
@@ -2403,6 +2405,7 @@ figure.medium-12 {
   font-size: 3em;
   text-align: center;
 }
+*/
     
 }
 
