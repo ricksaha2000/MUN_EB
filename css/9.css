@@ -24,6 +24,7 @@ html {
 }
 */
 
+/*
 @media only screen and (max-device-width: 480px) {
 
     .mobile{
@@ -31,6 +32,21 @@ html {
         display:block;
         
     }
+}
+*/
+
+
+.color{
+    
+        background-color: #511926 !important;
+
+}
+
+
+.color1{
+    
+            background-color: #0b0b14 !important;
+    
 }
 
 
