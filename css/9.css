@@ -2179,20 +2179,13 @@ figure.medium-12 {
         margin-left:-10%;
     } 
     
-    
-    .rai{
-        
-        margin-left: 90px;
-        
-    }
-    
     .filters {
         display: flex;
         flex-direction: column;
         overflow: hidden;
         margin-bottom: 44px;
         justify-content: space-around;
-        margin-left: 65px;
+        margin-left: 150px;
     }
 
     .filters li {
