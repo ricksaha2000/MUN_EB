@@ -2262,6 +2262,58 @@ figure.medium-12 {
 
 }
 
+
+
+
+@media only screen and (min-width: 1366px) {
+
+.filters
+    {
+        margin-left: 0px;
+    }
+    
+ .haha { 
+        margin-left: -20%;
+    } 
+    
+    @import "compass/css3";
+
+/*
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+    order: 2;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+*/
+
+.flex-item {
+  background: tomato;
+  padding: 5px;
+  width: 144px;
+  height: 65px;
+  margin-top: 10px;
+  line-height:;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+    
+
+}
+
+
+
 @media only screen and (min-width: 1440px) {
     
     
