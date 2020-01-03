@@ -2203,7 +2203,10 @@ figure.medium-12 {
 }
 @media only screen and (max-width: 768px) {
    
-    
+    .jayit3
+    {
+        display: none !important;
+    }
     .jay{
     
     padding-left: 130px
