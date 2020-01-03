@@ -2107,7 +2107,11 @@ jayit1
     margin-top: 100px;
 }
 
-
+.html , .body
+{
+    font-family:'Century Gothic' !important;
+    
+}
 
 
 
@@ -2365,6 +2369,20 @@ figure.medium-12 {
         overflow: hidden;
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /********** TESTIMONIALS **********/
 
