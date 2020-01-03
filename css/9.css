@@ -2225,9 +2225,8 @@ figure.medium-12 {
     
     @import "compass/css3";
 
-/*
 .flex-container {
-  padding: 0;
+  padding-left: 2.7px;
   margin: 0;
   list-style: none;
   
@@ -2241,12 +2240,11 @@ figure.medium-12 {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
-*/
 
 .flex-item {
   background: tomato;
   padding: 5px;
-  width: 144px;
+  width: 143.5px;
   height: 65px;
   margin-top: 10px;
   line-height:;
