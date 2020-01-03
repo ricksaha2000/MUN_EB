@@ -8,6 +8,11 @@ margin-left: 560px;
 }
 
 
+.jayit{
+    
+    display: none !important;
+}
+
 
 .abc{
     
@@ -2185,7 +2190,23 @@ figure.medium-12 {
 
 @media only screen and (max-width: 768px) {
    
+    .nav-dark
+    {
+        display: none;
+    }
     
+    .jayit
+    {
+        display: block!important;
+        background-color: #511926;
+        
+    }
+    .mobile{
+        
+        
+        height: 100px;
+        
+    }
     
     @import "compass/css3";
 
