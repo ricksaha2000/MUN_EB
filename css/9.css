@@ -34,7 +34,18 @@ html {
     }
 }
 */
+.color2
+{
+    color:#f6dba6;
+    
+}
 
+
+.color3
+{
+    color:#f6dba6 !important;
+    
+}
 
 .color{
     
@@ -48,7 +59,6 @@ html {
             background-color: #0b0b14 !important;
     
 }
-
 
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
