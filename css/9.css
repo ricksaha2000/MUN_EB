@@ -14,6 +14,26 @@ margin-left: 560px;
     width: 220px;
     
 }
+
+/*
+html {
+    zoom: 0.75;
+    -moz-transform: scale(0.75);
+    -webkit-transform: scale(0.75);
+    transform: scale(0.75);
+}
+*/
+
+@media only screen and (max-device-width: 480px) {
+
+    .mobile{
+        
+        display:block;
+        
+    }
+}
+
+
 body {
     font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
