@@ -2196,8 +2196,19 @@ figure.medium-12 {
     overflow: hidden;
 }
 
+
+.jay{
+    
+    padding-left: 30px
+}
 @media only screen and (max-width: 768px) {
    
+    
+    .jay{
+    
+    padding-left: 130px
+}
+    
     .nav-dark{
         
         display: none !important;
